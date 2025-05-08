@@ -1,4 +1,21 @@
+@font-face {
+	font-family:"ale" ;
+	src: url("fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf");
+	
+} 
+
+
+
+
+
+
+
 body{
+
+font-family: "ale";
+
+
+
     background-color: hsl(182, 97%, 76%)
 }
 
