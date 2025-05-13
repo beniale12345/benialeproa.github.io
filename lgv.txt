@@ -1,0 +1,2 @@
+<a href="vermas.html" class="myButton">ver mas</a>
+<a class="myButton" href="mapa.html">mapa</a>kkkk
