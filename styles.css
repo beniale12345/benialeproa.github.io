@@ -1,84 +1,126 @@
 @font-face {
-	font-family:"ale" ;
-	src: url("fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf");
-	
-} 
+  font-family: "ale";
+  src: url("fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf");
 
-
-
-
-
-
-
-body{
-
-font-family: "ale";
-
-
-
-    background-color: hsl(182, 97%, 76%)
 }
 
-h1{
-    color: rgb(0, 0, 0);
+
+
+
+body {
+
+  font-family: "ale";
+
+
+
+  background-color: hsl(182, 97%, 76%)
 }
 
-img{
-height: auto; 
-width: 50%;
+h1 {
+  color: rgb(0, 0, 0);
 }
 
-.texto{
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-} 
-.grupo-fotos{
-    background-color: #77fff4;
+img {
+  height: auto;
+  width: 100%;
 }
 
-.foto{
-    background-color: #fff9f9;
-    width: 120%;
-    display: inline-block;
-    margin-left: 0%;
-    margin-right: 0%;
+.texto {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
 }
+
+.grupo-fotos {
+  background-color: #77fff4;
+}
+
+.foto {
+  background-color: #fff9f9;
+  width: 120%;
+  display: inline-block;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
 
 .myButton {
-	box-shadow: 8px 7px 12px -1px #1564ad;
-	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
-	background-color:#79bbff;
-	border-radius:42px;
-	border:3px solid #337bc4;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:21px;
-	font-weight:bold;
-	padding:16px 42px;
-	text-decoration:none;
-	text-shadow:0px -6px 0px #528ecc;
+  box-shadow: 8px 7px 12px -1px #1564ad;
+  background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+  background-color: #79bbff;
+  border-radius: 42px;
+  border: 3px solid #337bc4;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 21px;
+  font-weight: bold;
+  padding: 16px 42px;
+  text-decoration: none;
+  text-shadow: 0px -6px 0px #528ecc;
 }
+
 .myButton:hover {
-	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
-	background-color:#378de5;
+  background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+  background-color: #378de5;
 }
+
 .myButton:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
-.ale{ 
-	height: auto; 
-	width: 50;
+
+.ale {
+  height: auto;
+  width: 50;
 }
-table th{
-	background-color: rgb(0, 255, 0);
-	border-style: outset;
+
+table th {
+  background-color: rgb(0, 255, 0);
+  border-style: outset;
 }
-table td{
-background-color: rgb(255, 0, 170);
+
+table td {
+  background-color: rgb(255, 0, 170);
 
 }
 
+#listanav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00ffff;
+}
+
+#listanav li {
+  display: inline-block
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  background-color: dodgerblue;
+  padding: 10px;
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
