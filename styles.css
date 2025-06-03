@@ -13,7 +13,7 @@ body {
 
 
 
-  background-color: hsl(182, 97%, 76%)
+  background-color: hsl(0, 100%, 20%)
 }
 
 h1 {
@@ -32,24 +32,32 @@ img {
 }
 
 .grupo-fotos {
-  background-color: #77fff4;
+  background-color: #fdfdfd;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  gap: 20px;
 }
 
 .foto {
   background-color: #fff9f9;
   width: 120%;
-  display: inline-block;
+  display:grid;
   margin-left: 0%;
   margin-right: 0%;
 }
 
 
 .myButton {
-  box-shadow: 8px 7px 12px -1px #1564ad;
-  background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
-  background-color: #79bbff;
+  box-shadow: 8px 7px 12px -1px #470101;
+  background: linear-gradient(to bottom, #474545 5%, #505050 100%);
+  background-color: #525252;
   border-radius: 42px;
-  border: 3px solid #337bc4;
+  border: 3px solid #616161;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
@@ -57,13 +65,13 @@ img {
   font-size: 21px;
   font-weight: bold;
   padding: 16px 42px;
-  text-decoration: none;
-  text-shadow: 0px -6px 0px #528ecc;
+  text-decoration: none;  
+  text-shadow: 0px -6px 0px #5d5e5f;
 }
 
 .myButton:hover {
-  background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
-  background-color: #378de5;
+  background: linear-gradient(to bottom, #545455 5%, #555657 100%);
+  background-color: #530606;
 }
 
 .myButton:active {
@@ -79,7 +87,7 @@ img {
 table th {
   background-color: rgb(0, 255, 0);
   border-style: outset;
-}
+  }
 
 table td {
   background-color: rgb(255, 0, 170);
@@ -91,13 +99,13 @@ table td {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #00ffff;
+  background-color: #630303;
 }
 
 #listanav li {
   display: inline-block
 }
-
+ 
 
 .flex-container {
   display: flex;
@@ -107,7 +115,7 @@ table td {
 }
 
 .flex-item-left {
-  background-color: #f1f1f1;
+  background-color: #4c4b4b;
   padding: 10px;
   flex: 50%;
 }
@@ -123,4 +131,27 @@ table td {
   .flex-container {
     flex-direction: column;
   }
+}
+.beni {
+  background-color: #fff9f9;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 1800px;
+  gap: 20px;
+}
+
+.aleksio {
+  background-color: #fff9f9;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 1200px;
+  gap: 20px;
 }
